@@ -9,3 +9,8 @@ Ask if any sound interesting, request number of article, or exit to exit
     Ask if they would like to visit the full article
       Y(open-in-browser?)
       N(returns to list)
+
+each article (instance of class Article) should have title, author, teaser paragraph, and full-story url
+
+BoingboingBriefing::Article
+  @articles
