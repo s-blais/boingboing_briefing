@@ -1,7 +1,7 @@
 
 
 
-user types boingboing-brief(?) to kick it off
+user types boingboing-briefing to kick it off
 
 Greet user and display numbered list of BB blog titles, with Author name
 Ask if any sound interesting, request number of article, or exit to exit

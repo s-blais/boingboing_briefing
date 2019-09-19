@@ -1,6 +1,8 @@
-require "boingboing_briefing/version"
+require_relative "./boingboing_briefing/version"
 
-module BoingboingBriefing
-  class Error < StandardError; end
-  # Your code goes here...
-end
+# module BoingboingBriefing
+#   class Error < StandardError; end
+#   # Your code goes here...
+# end
+
+require_relative "boingboing_briefing/cli"
