@@ -22,36 +22,20 @@ class BoingboingBriefing::CLI
     input = nil
     while input != "exit"
       sleep(0.75)
-      puts " Enter one of the following:"
-      sleep(0.75)
+      puts "   Enter one of the following:"
       puts " • the number of an article to read a teaser paragraph"
       puts "   and display URL to full article"
-      sleep(0.75)
       puts " •\'list\' to see the list of articles again"
-      sleep(0.75)
       puts " •\'exit\' to exit"
       puts ""
       input = gets.strip.downcase
-      sleep(0.75)
-      # if input.to_i > 0
       if (1..(@articles.size)).to_a.include?(input.to_i)
         the_article = @articles[input.to_i-1]
-        # puts "-- #{the_article.title} --"
         puts " By #{the_article.author}"
         puts " #{the_article.teaser.gsub('(more…)','').strip}"
+        puts ""
         puts " #{the_article.url}"
         puts ""
-        # tried to be fancy with the below but decided to leave it out
-        # link_input = nil
-        # while link_input == nil
-        #   puts "Interesting enough to pursue further?"
-        #   puts "Enter \"Y\" to open the full article in your browser.
-        #   Enter \"N\" to continue"
-        #   link_input = gets.strip.upcase
-        #   if link_input == "Y"
-        #   Launchy.open({the_article.url)
-        #   end
-        # end
       elsif input == "list"
         list_articles
       elsif input == "exit"

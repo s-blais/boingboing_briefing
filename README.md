@@ -1,5 +1,7 @@
 # BoingboingBriefing
 
+This gem presents a CLI that displays titles of articles from the BoingBoing blog page. Users can then choose to view a teaser paragraph from the article with a URL to the full story, re-list the article titles, or exit. 
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/boingboing_briefing`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
