@@ -41,6 +41,7 @@ class BoingboingBriefing::CLI
         puts " #{the_article.teaser.gsub('(more…)','').strip}"
         puts " #{the_article.url}"
         puts ""
+        # tried to be fancy with the below but decided to leave it out
         # link_input = nil
         # while link_input == nil
         #   puts "Interesting enough to pursue further?"
@@ -48,7 +49,7 @@ class BoingboingBriefing::CLI
         #   Enter \"N\" to continue"
         #   link_input = gets.strip.upcase
         #   if link_input == "Y"
-        #     Launchy.open("#{the_article.url}")
+        #   Launchy.open({the_article.url)
         #   end
         # end
       elsif input == "list"
