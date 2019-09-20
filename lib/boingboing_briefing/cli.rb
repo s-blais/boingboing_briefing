@@ -41,9 +41,9 @@ class BoingboingBriefing::CLI
       elsif input == "exit"
         goodbye
       else
-        puts ""
         sleep(0.5)
-        puts " hmm, I don't understand that answer, sorry!"
+        puts ""
+        puts " hmm, I don't understand that answer, sorry! Try again:"
         puts ""
       end
     end
