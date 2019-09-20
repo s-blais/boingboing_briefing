@@ -1,4 +1,4 @@
-
+if I can read this from the clone, I don't have to manually delete the local copy of the repo, right?
 
 
 user types boingboing-briefing to kick it off
